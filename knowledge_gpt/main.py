@@ -20,6 +20,8 @@ from knowledge_gpt.core.qa import query_folder
 EMBEDDING = "openai"
 VECTOR_STORE = "faiss"
 MODEL = "openai"
+[browser]
+gatherUsageStats = false
 
 # For testing
 # EMBEDDING, VECTOR_STORE, MODEL = ["debug"] * 3
